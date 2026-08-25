@@ -122,7 +122,7 @@ The longer-term goal is to investigate whether abnormal movement can be detected
 </p>
 
 <p align="center">
-  <img src="/neuroclip/neuroclip_alertdashboard.png" width="800"><br/>
+  <img src="/neuroclip/neuroclip_alert.png" width="800"><br/>
   <i>Live caretaker dashboard showing an active abnormal-movement alert.</i>
 </p>
 
