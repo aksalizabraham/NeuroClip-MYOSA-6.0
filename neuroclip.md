@@ -4,11 +4,11 @@ title: NeuroClip – Wearable Motion Monitoring & Caregiver Alert System
 excerpt: ...
 image: neuroclip-cover.jpg
 tags:
-* wearable
-* healthcare
-* fall-detection
-* ESP32
-* IoT
+  - wearable
+  - healthcare
+  - fall-detection
+  - esp32
+  - iot
 
 ---
 
