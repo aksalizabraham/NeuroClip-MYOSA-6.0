@@ -2,7 +2,7 @@
 publishDate: 2026-08-25T00:00:00Z
 title: NeuroClip – Wearable Motion Monitoring & Caregiver Alert System
 excerpt: ...
-image: neuroclip-cover.jpg
+image: neuroclip_fullcircuitnormal.jpeg
 tags:
   - wearable
   - healthcare
@@ -103,36 +103,52 @@ The longer-term goal is to investigate whether abnormal movement can be detected
 ### Images
 
 <p align="center">
-  <img src="/assets/images/neuroclip/neuroclip-cover.jpg" width="800"><br/>
-  <i>NeuroClip wearable prototype and its embedded sensing system.</i>
+  <img src="/neuroclip/neuroclip_wearingposition.jpeg" width="800"><br/>
+  <i>NeuroClip worn by the user in its intended wearable position.</i>
 </p>
 
 <p align="center">
-  <img src="/assets/images/neuroclip/neuroclip-hardware.jpg" width="800"><br/>
-  <i>NeuroClip hardware consisting of the ESP32, MPU6050, OLED display, and buzzer.</i>
+  <img src="/neuroclip/neuroclip_fullcircuitnormal.jpeg" width="800"><br/>
+  <i>NeuroClip hardware operating in the normal monitoring state.</i>
 </p>
 
 <p align="center">
-  <img src="/assets/images/neuroclip/neuroclip-oled-normal.jpg" width="800"><br/>
-  <i>OLED displaying the normal monitoring state.</i>
+  <img src="/neuroclip/neuroclip_alertcircuit.jpeg" width="800"><br/>
+  <i>NeuroClip hardware during an abnormal movement alert.</i>
 </p>
 
 <p align="center">
-  <img src="/assets/images/neuroclip/neuroclip-oled-alert.jpg" width="800"><br/>
-  <i>OLED displaying an abnormal movement alert.</i>
+  <img src="/neuroclip/neuroclip_normaldashboard.png" width="800"><br/>
+  <i>NeuroClip caretaker dashboard during normal operation.</i>
 </p>
 
 <p align="center">
-  <img src="/assets/images/neuroclip/neuroclip-dashboard.jpg" width="800"><br/>
-  <i>NeuroClip real-time caretaker dashboard receiving device telemetry and alerts.</i>
+  <img src="/neuroclip/neuroclip_alertdashboard.png" width="800"><br/>
+  <i>Live caretaker dashboard showing an active abnormal-movement alert.</i>
+</p>
+
+<p align="center">
+  <img src="/neuroclip/neuroclip_alertacknowledged.png" width="800"><br/>
+  <i>Caretaker dashboard after the alert has been acknowledged.</i>
 </p>
 
 ### Videos
 
+#### Full End-to-End Demonstration
+
 <video controls width="100%">
-  <source src="/neuroclip-demo.mp4" type="video/mp4">
+  <source src="/neuroclip/neuroclip_Circuitwithdashboard.mp4" type="video/mp4">
 </video>
 
+*Complete demonstration showing movement detection, local alerting, Firebase communication, caretaker dashboard alert, and alert acknowledgement.*
+
+#### Wearable Demonstration
+
+<video controls width="100%">
+  <source src="/neuroclip/neuroclip_Wearableworking.mp4" type="video/mp4">
+</video>
+
+*NeuroClip operating while worn by the user.*
 ---
 
 ## Features (Detailed)
