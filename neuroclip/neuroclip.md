@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-08-25T00:00:00Z
-title: NeuroClip: A Smart Ear-Worn Balance Monitoring and Haptic Alert System
-excerpt: NeuroClip is a wearable ESP32-based monitoring system that detects abnormal movement and provides immediate local and remote alerts to caregivers through an OLED display, buzzer, Firebase, and a real-time web dashboard.
+title: "NeuroClip – Wearable Motion Monitoring & Caregiver Alert System"
+excerpt: "NeuroClip is a wearable ESP32-based monitoring system that detects abnormal movement and provides local and remote alerts to caregivers through an OLED, buzzer, Firebase, and a real-time web dashboard."
 image: neuroclip_fullcircuitnormal.jpeg
 tags:
   - wearable
@@ -9,7 +9,6 @@ tags:
   - fall-detection
   - esp32
   - iot
-
 ---
 
 > **Detect movement. Recognize danger. Alert the right person, before it is too late.**
