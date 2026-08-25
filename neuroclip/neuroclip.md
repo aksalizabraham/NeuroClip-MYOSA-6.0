@@ -1,7 +1,7 @@
 ---
 publishDate: 2026-08-25T00:00:00Z
-title: NeuroClip – Wearable Motion Monitoring & Caregiver Alert System
-excerpt: ...
+title: NeuroClip: A Smart Ear-Worn Balance Monitoring and Haptic Alert System
+excerpt: NeuroClip is a wearable ESP32-based monitoring system that detects abnormal movement and provides immediate local and remote alerts to caregivers through an OLED display, buzzer, Firebase, and a real-time web dashboard.
 image: neuroclip_fullcircuitnormal.jpeg
 tags:
   - wearable
@@ -12,7 +12,7 @@ tags:
 
 ---
 
-> **Detect movement. Recognize danger. Alert the right person — before it is too late.**
+> **Detect movement. Recognize danger. Alert the right person, before it is too late.**
 
 ---
 
@@ -32,21 +32,15 @@ NeuroClip is a student research and engineering prototype developed for the **MY
 
 It started with a conversation about someone's grandmother.
 
-A friend once told us about how his grandmother would sometimes slowly tilt to one side before falling. It was not always a sudden collapse. Sometimes the movement happened gradually — a small loss of balance that could eventually lead to a fall.
+A friend once told us about how his grandmother would sometimes slowly tilt to one side before falling. It was not always a sudden collapse. Sometimes the movement happened gradually, a small loss of balance that could eventually lead to a fall. The difficult part was not only the fall itself. It was that nobody knew it was happening until it was too late.
 
-The difficult part was not only the fall itself.
-
-It was that **nobody knew it was happening until it was too late.**
-
-This made us think about elderly-care environments such as old-age homes and assisted-living facilities. A limited number of caregivers may be responsible for multiple residents at the same time. Some people may not be able to communicate clearly, may be unable to call for assistance, or may simply be outside the caregiver's field of view when they begin to lose balance.
-
-A caregiver cannot continuously watch every person.
+This made us think about elderly care environments such as old age homes and assisted living facilities. A limited number of caregivers may be responsible for multiple residents at the same time. Some people may not be able to communicate clearly, may be unable to call for assistance, or may simply be outside the caregiver's field of view when they begin to lose balance. A caregiver cannot continuously watch every person.
 
 **A wearable device can continuously monitor movement.**
 
 ### Our Solution
 
-NeuroClip is a compact wearable motion-monitoring prototype designed to recognize abnormal movement patterns and provide immediate awareness to both the wearer and a remote caretaker.
+NeuroClip is a compact wearable motion monitoring prototype designed to recognize abnormal movement patterns and provide immediate awareness to both the wearer and a remote caretaker.
 
 The device uses an **MPU6050 accelerometer and gyroscope** connected to an **ESP32**. The ESP32 processes the motion data and evaluates it against abnormal-motion thresholds.
 
