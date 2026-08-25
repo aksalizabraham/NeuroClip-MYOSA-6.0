@@ -27,15 +27,21 @@ NeuroClip is a student research and engineering prototype developed for the **MY
 
 ## Overview
 
-### The Story Behind NeuroClip
+It started with a conversation about my closest friend's grandmother.
 
-It started with a conversation about someone's grandmother.
+My friend told me about how his grandmother would sometimes slowly tilt to one side before falling. It wasn't always a sudden fall that someone could immediately notice. Sometimes, it began with something much smaller, a gradual loss of balance, a slow tilt to one side, and then, eventually, a fall.
 
-A friend once told us about how his grandmother would sometimes slowly tilt to one side before falling. It was not always a sudden collapse. Sometimes the movement happened gradually, a small loss of balance that could eventually lead to a fall. The difficult part was not only the fall itself. It was that nobody knew it was happening until it was too late.
+What stayed with us was the thought that someone could be right there, and still not realize what was happening until it was too late.
 
-This made us think about elderly care environments such as old age homes and assisted living facilities. A limited number of caregivers may be responsible for multiple residents at the same time. Some people may not be able to communicate clearly, may be unable to call for assistance, or may simply be outside the caregiver's field of view when they begin to lose balance. A caregiver cannot continuously watch every person.
+That conversation made the problem feel very real to us. We started thinking about elderly care homes and assisted living environments, where a small number of caregivers may be looking after many residents at the same time. Some elderly people may not be able to speak clearly, call for help, or communicate that they are losing their balance. Even a few minutes of delay can matter when someone has fallen.
 
-**A wearable device can continuously monitor movement.**
+We kept coming back to one simple question:
+
+What if the person could have something with them that noticed the movement, even when nobody else could?
+
+That question became the idea behind NeuroClip.
+
+A wearable device that continuously monitors movement, recognizes potentially abnormal motion, and alerts someone who can help — before it is too late.
 
 ### Our Solution
 
@@ -510,25 +516,38 @@ The prototype has been tested with real MPU6050 motion data, Firebase telemetry 
 
 ---
 
+## Current Limitations
+
+NeuroClip is currently a first-stage prototype and has several limitations that can be addressed through further development.
+
+* The current buzzer may be uncomfortable or distracting for some elderly or neurodivergent users.
+* The prototype currently relies on an external power source, making it less compact for continuous wearable use.
+* The current detection system uses threshold-based motion analysis and may produce false positives.
+* Long-term movement and fall-history analysis is not yet implemented.
+* The current prototype has not undergone clinical or large-scale real-world validation.
+* The current caretaker dashboard is a prototype/mock interface, and its online status indicator does not yet fully verify the physical device's real-time connectivity.
+
+---
+
 ## Future Scope
 
 NeuroClip is intended as a foundation for further research and development.
 
 Future improvements include:
 
+* Customizable sound, vibration, and caregiver alerts
+* Battery-powered and miniaturized hardware
+* Long-term storage of movement and fall history in lightweight CSV format
+* AI-based analysis of movement patterns and fall history
 * Personalized movement thresholds
-* Larger datasets for fall and near-fall detection
+* Improved detection of near-falls and gradual loss of balance
 * Machine-learning-based movement classification
 * Reduction of false positives
-* Detection of gradual loss-of-balance events
-* Battery-powered miniaturized hardware
-* A more compact wearable enclosure
-* Mobile caretaker notifications
+* Mobile notifications for caregivers
 * Multiple NeuroClip devices connected to one caretaker dashboard
-* Secure authentication and encrypted production deployment
 * Clinical and real-world validation
 
-A particularly important future direction is moving beyond simple threshold detection toward identifying **near-falls and gradual loss-of-balance events** before a complete fall occurs.
+A particularly important future direction is using **long-term movement and fall-history data with AI analysis** to identify whether a person's mobility patterns and fall risk are improving, remaining stable, or worsening over time.
 
 ---
 
