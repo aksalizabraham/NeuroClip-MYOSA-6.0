@@ -137,7 +137,7 @@ The longer-term goal is to investigate whether abnormal movement can be detected
 #### Full End-to-End Demonstration
 
 <video controls width="100%">
-  <source src="/neuroclip/neuroclip_Circuitwithdashboard.mp4" type="video/mp4">
+  <source src="neuroclip_Circuitwithdashboard.mp4" type="video/mp4">
 </video>
 
 *Complete demonstration showing movement detection, local alerting, Firebase communication, caretaker dashboard alert, and alert acknowledgement.*
@@ -145,7 +145,7 @@ The longer-term goal is to investigate whether abnormal movement can be detected
 #### Wearable Demonstration
 
 <video controls width="100%">
-  <source src="/neuroclip/neuroclip_Wearableworking.mp4" type="video/mp4">
+  <source src="neuroclip_Wearableworking.mp4" type="video/mp4">
 </video>
 
 *NeuroClip operating while worn by the user.*
